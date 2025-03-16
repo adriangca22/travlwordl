@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelWorld - Discover Amazing Destinations</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">TravelWorld</div>
+                <nav class="desktop-nav">
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#destinations">Destinations</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+            
+            <nav class="mobile-nav" id="mobileNav">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+  <main>
+    <!-- Hero Section with Image Slider -->
+    <section class="hero">
+        <div class="container slider-container">
+            <div class="slide">
+                <!-- Switzerland -->
+                <div class="item" style="background: url('./swetherlandia.png'); background-size: cover; background-position: center; width: 100%; height: 100%;">
+                    <div class="content">
+                        <div class="name">Switzerland</div>
+                        <div class="description">Renowned for its breathtaking Alpine scenery and precision in craftsmanship</div>
+                        <button>See More</button>
+                    </div>
+                </div>
+
+                <!-- Finland -->
+                <div class="item" style="background: url('Finlandiax.png'); background-size: cover; background-position: center; width: 100%; height: 100%;">
+                    <div class="content">
+                        <div class="name">Finland</div>
+                        <div class="description">Known for its saunas, lakes, and a deep connection to nature</div>
+                        <button>See More</button>
+                    </div>
+                </div>
+
+                <!-- Iceland -->
+                <div class="item" style="background: url('icelandiax.png'); background-size: cover; background-position: center; width: 100%; height: 100%;">
+                    <div class="content">
+                        <div class="name">Iceland</div>
+                        <div class="description">Famous for its stunning geothermal landscapes, waterfalls, and glaciers</div>
+                        <button>See More</button>
+                    </div>
+                </div>
+
+                <!-- Australia -->
+                <div class="item" style="background: url('autralias.png'); background-size: cover; background-position: center; width: 100%; height: 100%;">
+                    <div class="content">
+                        <div class="name">Australia</div>
+                        <div class="description">Distinguished by its diverse ecosystems, ranging from beaches to bushland</div>
+                        <button>See More</button>
+                    </div>
+                </div>
+
+                <!-- Netherland -->
+                <div class="item" style="background: url('neherlandiax.png'); background-size: cover; background-position: center; width: 100%; height: 100%;">
+                    <div class="content">
+                        <div class="name">Netherland</div>
+                        <div class="description">Characterized by its iconic canals, tulip fields, and windmills</div>
+                        <button>See More</button>
+                    </div>
+                </div>
+
+                <!-- Ireland -->
+                <div class="item" style="background: url('irlandiax.png'); background-size: cover; background-position: center; width: 100%; height: 100%;">
+                    <div class="content">
+                        <div class="name">Ireland</div>
+                        <div class="description">Known for its lush green landscapes and rich cultural heritage</div>
+                        <button>See More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+                <div class="button">
+                    <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Destinations Section -->
+<section id="destinations" class="destinations">
+    <div class="container">
+        <h2>Popular Destinations</h2>
+        <div class="destinations-grid">
+            <!-- Destination 1: Switzerland -->
+            <div class="destination-card">
+                <div class="icon">
+                    <i class="fa-solid fa-compass"></i>
+                </div>
+                <h3>Switzerland</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span class="rating-score">5.0</span>
+                </div>
+                <p>Explore the majestic Alps, charming villages, and pristine lakes in this breathtaking European destination.</p>
+                <a href="#" class="link">Explore more →</a>
+            </div>
+
+            <!-- Destination 2: Finland -->
+            <div class="destination-card">
+                <div class="icon">
+                    <i class="fa-solid fa-map"></i>
+                </div>
+                <h3>Finland</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span class="rating-score">4.5</span>
+                </div>
+                <p>Experience the Northern Lights, traditional saunas, and the serene beauty of thousands of lakes.</p>
+                <a href="#" class="link">Explore more →</a>
+            </div>
+
+            <!-- Destination 3: Iceland -->
+            <div class="destination-card">
+                <div class="icon">
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <h3>Iceland</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span class="rating-score">4.7</span>
+                </div>
+                <p>Discover dramatic landscapes with volcanoes, geysers, hot springs, lava fields, and massive glaciers.</p>
+                <a href="#" class="link">Explore more →</a>
+            </div>
+
+            <!-- Destination 4: Australia -->
+            <div class="destination-card">
+                <div class="icon">
+                    <i class="fa-solid fa-plane"></i>
+                </div>
+                <h3>Australia</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span class="rating-score">4.6</span>
+                </div>
+                <p>Visit the iconic Sydney Opera House, the Great Barrier Reef, and encounter unique wildlife.</p>
+                <br>  
+                <a href="#" class="link">Explore more →</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Travel Insights Section -->
+<section id="travel-insights" class="travel-insights">
+    <div class="container">
+        <h2>Travel Insights</h2>
+        <div class="insights-grid">
+            <!-- Destination 1: Switzerland -->
+            <div class="insight-card">
+                <div class="card-header" style="background-image: url('https://i.postimg.cc/g0W4qN2y/Switzerland.jpg');">
+                    <p class="location-label">Switzerland</p>
+                </div>
+                <div class="card-body">
+                    <div class="weather-info">
+                        <p class="temperature"><i class="wi wi-day-sunny text-yellow-500"></i> 18°<span class="text-lg text-gray-500">/ 10°</span></p>
+                        <p class="description">Breathtaking Alpine scenery and precision in craftsmanship.</p>
+                    </div>
+                    <div class="additional-info">
+                        <div class="info-item">
+                            <i class="mr-2 wi wi-hot"></i>
+                            <p><span class="font-bold">6</span> <span class="text-sm">UV</span></p>
+                        </div>
+                        <div class="info-item">
+                            <i class="mr-2 wi wi-rain"></i>
+                            <p><span class="font-bold">15%</span> <span class="text-sm">Precip</span></p>
+                        </div>
+                        <div class="info-item">
+                            <i class="mr-2 wi wi-thermometer"></i>
+                            <p><span class="font-bold">12°</span> <span class="text-sm">Dew Point</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Destination 2: Finland -->
+            <div class="insight-card">
+                <div class="card-header" style="background-image: url('https://i.postimg.cc/DZfgR0s8/Finland.jpg');">
+                    <p class="location-label">Finland</p>
+                </div>
+                <div class="card-body">
+                    <div class="weather-info">
+                        <p class="temperature"><i class="wi wi-snowflake-cold text-blue-500"></i> -5°<span class="text-lg text-gray-500">/ -10°</span></p>
+                        <p class="description">Known for its saunas, lakes, and a deep connection to nature.</p>
+                    </div>
+                    <div class="additional-info">
+                        <div class="info-item">
+                            <i class="mr-2 wi wi-hot"></i>
+                            <p><span class="font-bold">1</span> <span class="text-sm">UV</span></p>
+                        </div>
+                        <div class="info-item">
+                            <i class="mr-2 wi wi-rain"></i>
+                            <p><span class="font-bold">5%</span> <span class="text-sm">Precip</span></p>
+                        </div>
+                        <div class="info-item">
+                            <i class="mr-2 wi wi-thermometer"></i>
+                            <p><span class="font-bold">-8°</span> <span class="text-sm">Dew Point</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Destination 3: Iceland -->
+            <div class="insight-card">
+                <div class="card-header" style="background-image: url('https://i.postimg.cc/kX2jn2HS/Iceland.jpg');">
+                    <p class="location-label">Iceland</p>
+                </div>
+                <div class="card-body">
+                    <div class="weather-info">
+                        <p class="temperature"><i class="wi wi-cloudy text-gray-600"></i> 10°<span class="text-lg text-gray-500">/ 5°</span></p>
+                        <p class="description">Famous for its stunning geothermal landscapes, waterfalls, and glaciers.</p>
+                    </div>
+                    <div class="additional-info">
+                        <div class="info-item">
+                            <i class="mr-2 wi wi-hot"></i>
+                            <p><span class="font-bold">3</span> <span class="text-sm">UV</span></p>
+                        </div>
+                        <div class="info-item">
+                            <i class="mr-2 wi wi-rain"></i>
+                            <p><span class="font-bold">20%</span> <span class="text-sm">Precip</span></p>
+                        </div>
+                        <div class="info-item">
+                            <i class="mr-2 wi wi-thermometer"></i>
+                            <p><span class="font-bold">7°</span> <span class="text-sm">Dew Point</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Destination 4: Australia -->
+            <div class="insight-card">
+                <div class="card-header" style="background-image: url('https://i.postimg.cc/05WWRYVx/Australia.jpg');">
+                    <p class="location-label">Australia</p>
+                </div>
+                <div class="card-body">
+                    <div class="weather-info">
+                        <p class="temperature"><i class="wi wi-day-sunny text-yellow-500"></i> 25°<span class="text-lg text-gray-500">/ 18°</span></p>
+                        <p class="description">Distinguished by its diverse ecosystems, ranging from beaches to bushland.</p>
+                    </div>
+                    <div class="additional-info">
+                        <div class="info-item">
+                            <i class="mr-2 wi wi-hot"></i>
+                            <p><span class="font-bold">8</span> <span class="text-sm">UV</span></p>
+                        </div>
+                        <div class="info-item">
+                            <i class="mr-2 wi wi-rain"></i>
+                            <p><span class="font-bold">10%</span> <span class="text-sm">Precip</span></p>
+                        </div>
+                        <div class="info-item">
+                            <i class="mr-2 wi wi-thermometer"></i>
+                            <p><span class="font-bold">20°</span> <span class="text-sm">Dew Point</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2>What Our Travelers Say</h2>
+                
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>"Our trip to Switzerland was absolutely magical. The mountains were breathtaking and the tour was perfectly organized. Will definitely book again!"</p>
+                        <div class="user">
+                            <div class="avatar"></div>
+                            <div class="user-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>Switzerland Tour, 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>"Finland exceeded all my expectations. Seeing the Northern Lights was a once-in-a-lifetime experience that I'll never forget. Highly recommend!"</p>
+                        <div class="user">
+                            <div class="avatar"></div>
+                            <div class="user-info">
+                                <h4>Michael Chen</h4>
+                                <p>Finland Adventure, 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>"The Iceland tour was incredible! From waterfalls to hot springs, every day was an adventure. The guides were knowledgeable and friendly."</p>
+                        <div class="user">
+                            <div class="avatar"></div>
+                            <div class="user-info">
+                                <h4>Emily Rodriguez</h4>
+                                <p>Iceland Expedition, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section id="contact" class="cta">
+            <div class="container">
+                <h2>Ready for Your Next Adventure?</h2>
+                <p>Join thousands of satisfied travelers and discover the world's most beautiful destinations with us.</p>
+                
+                
+            </div>
+        </section>
+    </main>
+    
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-content">
+            <form class="contact-form" action="submit_form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> 123 Travel Street, Adventure City, 10001</li>
+                    <li><i class="fa-solid fa-phone"></i> +1 (555) 123-4567</li>
+                    <li><i class="fa-solid fa-envelope"></i> info@travelworld.com</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>TravelWorld</h3>
+                    <p>Discover the world's most breathtaking destinations with our expertly curated travel experiences.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#destinations">Destinations</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Popular Destinations</h3>
+                    <ul>
+                        <li><a href="#">Switzerland</a></li>
+                        <li><a href="#">Finland</a></li>
+                        <li><a href="#">Iceland</a></li>
+                        <li><a href="#">Australia</a></li>
+                        <li><a href="#">Netherlands</a></li>
+                        <li><a href="#">Ireland</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li><i class="fa-solid fa-location-dot"></i> 123 Travel Street, Adventure City, 10001</li>
+                        <li><i class="fa-solid fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fa-solid fa-envelope"></i> info@travelworld.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Adrian gonzalez. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+
+
+
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/67d437c40f4830190d96b30e/1imafjmei';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>
+
+    <script type="text/javascript">
+    // Mobile Menu Toggle
+const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+const mobileNav = document.getElementById('mobileNav');
+
+if (mobileMenuBtn && mobileNav) {
+    mobileMenuBtn.addEventListener('click', function() {
+        mobileNav.classList.toggle('active');
+        
+        // Change icon based on menu state
+        const icon = mobileMenuBtn.querySelector('i');
+        if (mobileNav.classList.contains('active')) {
+            icon.classList.remove('fa-bars');
+            icon.classList.add('fa-xmark');
+        } else {
+            icon.classList.remove('fa-xmark');
+            icon.classList.add('fa-bars');
+        }
+    });
+}
+
+// Image Slider
+const next = document.querySelector('.next');
+const prev = document.querySelector('.prev');
+
+if (next && prev) {
+    next.addEventListener('click', function() {
+        let items = document.querySelectorAll('.item');
+        document.querySelector('.slide').appendChild(items[0]);
+    });
+
+    prev.addEventListener('click', function() {
+        let items = document.querySelectorAll('.item');
+        document.querySelector('.slide').prepend(items[items.length - 1]);
+    });
+}
+
+// Smooth scrolling for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        // Close mobile menu if open
+        if (mobileNav && mobileNav.classList.contains('active')) {
+            mobileNav.classList.remove('active');
+            const icon = mobileMenuBtn.querySelector('i');
+            icon.classList.remove('fa-xmark');
+            icon.classList.add('fa-bars');
+        }
+        
+        // Scroll to target
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+        
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+            const headerHeight = document.querySelector('.header').offsetHeight;
+            const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+            
+            window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+
+// Auto-rotate slider every 5 seconds
+setInterval(() => {
+    if (next) {
+        next.click();
+    }
+}, 5000);
+</script>
